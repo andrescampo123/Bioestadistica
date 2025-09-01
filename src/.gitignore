@@ -1,0 +1,48 @@
+# === Entornos virtuales ===
+.venv/
+env/
+venv/
+
+# === Cachés/compilados de Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === VS Code / IDE ===
+.vscode/
+.idea/
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+
+# === Anaconda / perfiles locales ===
+.conda/
+.condarc
+.Continuum/
+.bash_history
+history.sqlite
+
+# === Logs ===
+*.log
+
+# === Datos crudos (no versionar) ===
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.sav
+*.zip
+*.rar
+*.tar
+*.gz
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Otros ===
+*.lst
+*.bak
+*.swp
